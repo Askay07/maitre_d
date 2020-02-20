@@ -9,13 +9,13 @@ var Gtotal = Math.round(total + tip + taxA);
 
 console.log(Gtotal)
 
-var taxA = document.querySelector('#uno')
-var tip = document.querySelector('#dos')
-var Gtotal = document.querySelector('#tres')
+var taxA = document.querySelector('#tres')
+var tip = document.querySelector('#quatro')
+var Gtotal = document.querySelector('#cinco')
 
 
 }
 
 document.getElementById("lamo").onclick = function() {
 calculate();
-}
+};
