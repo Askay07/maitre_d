@@ -11,6 +11,5 @@ var Gtotal = Math.round(total + tip + taxA);
 }
 
 document.getElementById("calculate").onclick = function() {
-
-    calculate()
+calculate();
 }
