@@ -7,6 +7,8 @@ var taxA = Math.round(total * (5.5/100));
 var tip = Math.round(total * tipR);
 var Gtotal = Math.round(total + tip + taxA);
 
+console.log(Gtotal)
+
 var taxA = document.querySelector('#uno')
 var tip = document.querySelector('#dos')
 var Gtotal = document.querySelector('#tres')
