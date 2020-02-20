@@ -10,6 +10,6 @@ var Gtotal = Math.round(total + tip + taxA);
 
 }
 
-document.getElementById("calculate").onclick = function() {
+document.getElementById("lamo").onclick = function() {
 calculate();
 }
