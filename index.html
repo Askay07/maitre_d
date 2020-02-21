@@ -14,27 +14,43 @@
 
   <body>
 
-    <br><br>
-                <span class="label">Total:</span>
+    <center>
+    <!---Total-->
+   <label>Total:</label>
+   <input name="total" type="text" id="uno" size="11">
+   </div>
+  
 
-                <input type="number" class="pullRight" id="1" style="width: 80%;" onchange="calculate()">
-                <br>
-                <span class="label">Tip:</span>
-                <span id="tipInfo"></span>
-                <span class="pullRight">
-                    <span class="label">Rate:</span>
-                    <input type="number" id="2" onchange="calculate()">
-                </span>
-                <br><br>
-                <span class="label">Tax:</span>
-                <span id="taxInfo"></span>
-                <br><br>
-                <span class="label">Grand Total:</span>
-                <span id="grandTotalInfo"></span>
-                <br><br>
-                <div id="calculateBTN" onmousedown="calculate()"><strong>CALCULATE</strong>/div>
-                <br><br>
+    <!---Rate-->
+    
+  
+      <label>Tip Rate:</label>
+       <input name="tipR" type="text" id="dos" size="11">
+      </div>
+      <br>
 
+<!--tax-->
+
+  <label>Tax:</label>
+  <input name="tax"  id="tres" size="11" readonly>
+  </div>
+
+
+  <!--tip-->
+
+  <label>    Tip:</label>
+  <input name="tipA" id="quatro" size="11" readonly>
+  </div>
+
+<br> <br>
+  <!--Grand total-->
+
+  <label>Grand Total</label>
+  <input name="Gtotal" id="cinco" size="11" readonly>
+  </div>
+  <br>
+
+  <button type="button" id = "lamo"><strong>CALCULATE</strong></button>
 
 </center>
 </body>
