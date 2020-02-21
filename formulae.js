@@ -1,4 +1,4 @@
-<script> 
+
   
   function calculate() {
     
@@ -18,4 +18,4 @@
   }
   
   }
-  </script>
+ 
