@@ -1,19 +1,19 @@
-function calculate(){
+<script>
+  function calculateion() {
+  
+ var total = document.getElementById("uno").value;
+  var tipR = document.getElementById("dos").value;
+  
+  var taxA = (parseFloat(total) * (5.5 / 100));
+  var tip = (parseFloat(total) * parseFloat(tipR));
+  var Gtotal = (parseFloat(total) + parseFloat(tip) + parseFloat(taxA));
+  if (!isNaN(Gtotal)) {
 
-var total = document.getElementsById("uno").value;
-var tipR = document.getElementsById("dos").value;
+    document.getElementById("tres").innerHTML = taxA;
+    document.getElementById("quatro").innerHTML = tip;
+    document.getElementById("cinco").innerHTML = Gtotal;
 
-var taxA = Math.round(total * (5.5/100));
-var tip = Math.round(total * tipR);
-var Gtotal = Math.round(total + tip + taxA);
-
-document.getElementById("tres").innerHTML = taxA
-document.getElementById("quatro").innerHTML = tip
-document.getElementById("cinco").innerHTML = Gtotal
-
-
-}
-
-document.getElementById("lamo").onclick = function() {
-calculate();
-};
+  }
+  
+  }
+  </script>
