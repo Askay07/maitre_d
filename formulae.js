@@ -11,9 +11,9 @@
 
   if (!isNaN(Gtotal)) {
 
-    document.getElementById("tres").innerHTML = "$" + taxA;
-    document.getElementById("quatro").innerHTML = tip;
-    document.getElementById("cinco").innerHTML = Gtotal;
+    document.getElementById("tres").innerHTML = "$ " + taxA;
+    document.getElementById("quatro").innerHTML = "$ " + tip;
+    document.getElementById("cinco").innerHTML = "$ " + Gtotal;
 
   }
   
